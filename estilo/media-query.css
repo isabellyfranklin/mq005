@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width:  768px)  {
+    span#burguer{
+        display: none;/*serve para não mostra o menu*/
+    }
+
+    menu{
+        display: block; /*aqui ele ja pede para mostra o menu, por vonta que a tela é maior e da  para mostra*/
+    }
+
+    menu >ul >li {
+        display: inline-block;
+    }
+
+    main{
+        width: 788px;
+    }
+}
